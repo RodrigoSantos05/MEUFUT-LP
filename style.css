@@ -76,7 +76,7 @@ p1{
     display: flex; 
     flex-direction: row;
     background: rgb(32,174,39);
-    background: linear-gradient(10deg, rgba(32,174,39,1) 0%, rgba(32,115,26,1) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(10deg, rgba(32,174,39,1) 0%, rgba(32,115,26,1) 50%, rgb(0, 0, 0) 100%);
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
@@ -86,10 +86,21 @@ p1{
     justify-content: space-around;
     color: #ccc;
 }
-.subscription-form {
-    background-color: #fff;
-    color: #000;
-}
+.fourth-section{
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    background: rgb(32,174,39);
+    background: linear-gradient(10deg, rgba(32,174,39,1) 0%, rgba(32,115,26,1) 50%, rgba(0,0,0,1) 100%);
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+    color: #fff;
+}   
 .form-group {
     margin: 10px 0;
   }
